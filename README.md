@@ -1,8 +1,8 @@
 # UFOs
-JavaScript, HTML, CSS, Bootstrap
+
 
 ## Overview of Project
-### Purpose
+## Purpose
 
 The purpose of this project is to build a **dynamic webpage** that displays UFOs sightings information for upcoming annual gathering of UFO enthusiasts in McMinnville, Oregon. There is a lot of data to display so adding filters to the table which let users to refine their search on more than one level is necessary.  
 
@@ -26,9 +26,9 @@ For this project we are using **JavaScript** as the primary coding language. Jav
 ## Resources
 
 - **Data Source:** JavaScript list [data.js](static/js/data.js)
-- **Software:** VS Code and Chrome Developer Tools, 
+- **Software:** VS Code and Chrome Developer Tools.
 - **Languages:** JavaScript, HTML, CSS and Bootstrap 3
-  - The table is built by inserting **JavaScript** into HTML page. [app.py]( static/js/app.js).
+  - The table is built by inserting **JavaScript** into HTML page. [app.js]( static/js/app.js).
   - **HTML** to build the webpage [index.html](index.html).
   - **CSS** and **Bootstrap** to build and style the page [style.css](static/css/style.css)
   - **Chrome Developer Tools** to test the code.
