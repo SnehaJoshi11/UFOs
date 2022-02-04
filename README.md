@@ -1,16 +1,17 @@
 # UFOs
 
-
 ## Overview of Project
+We need to build a **dynamic webpage** that displays UFOs sightings information for upcoming annual gathering of UFO enthusiasts in McMinnville, Oregon.
+
 ## Purpose
 
-The purpose of this project is to build a **dynamic webpage** that displays UFOs sightings information for upcoming annual gathering of UFO enthusiasts in McMinnville, Oregon. There is a lot of data to display so adding filters to the table which let users to refine their search on more than one level is necessary.  
+ The purpose of this project is to display data by adding filters to the table which let users to refine their search on more than one level.  
 
-## Requirements:
+## Requirements
 The webpage contains the following:
 -   Interactive filters for searching criteria on date, city, country, and shape.
 -   Brief article and its summary.
--   An attention-grabbing header with a refresh-page link.
+-   An attention-grabbing header with a refresh page link.
 -   Visually appealing design of overall presentation of the data.
 
 <p align ="center">
@@ -20,7 +21,7 @@ The webpage contains the following:
 <i>Image from the header of the webpage.</i>
 </p>
 
-### Background 
+## Background 
 For this project we are using **JavaScript** as the primary coding language. JavaScript (JS) is a scripting language, primarily used on the Web. It is used to enhance HTML pages and is commonly found embedded in HTML code. JavaScript is an interpreted language. Thus, it doesn't need to be compiled. JavaScript renders web pages in an interactive and dynamic fashion.
 
 ## Resources
@@ -47,6 +48,7 @@ Here filter input box is suggesting end-user that, how search criteria should be
   <i>Dynamic multi-filter.</i>
 </p>
 
+#
 When user types of criteria in multi-filter and then press enter then table displays only rows that matches the user input. From the picture below we can see only data that has been filtered based on the user input – that is -- *State: ca, Shape: triangle and Date: 1/1/2010*.
 
 <p align="center">
@@ -59,7 +61,7 @@ When user types of criteria in multi-filter and then press enter then table disp
 </p>
 
   
-  
+# 
 To resetting the filter, there are two options. User can either clear input manually by deleting input cell by cell or click the refresh button *UFO Sightings* that can be found at the top left corner of the page. After the filter is cleared, the user can use filter again.
 <p align="center">
 <img src="PNGs/UFO_sightings_link.png" width="30%" height="30%">
@@ -82,8 +84,8 @@ This webpage does give a great overview of UFO sightings in the US, but it does 
 
 ### Recommendations for further analysis
 
-- **Converting all input to lower case. ** Adding line of code that would convert all letters to lower case from user input. For example, no matter which format user used to type “CA” or “Ca” instead of “ca”, the code will still be able to process and find the results.
+- **Converting all input to lower case.** Adding line of code that would convert all letters to lower case from user input. For example, no matter which format user used to type “CA” or “Ca” instead of “ca”, the code will still be able to process and find the results.
 
-- **Adding drop down-menu from the filter. ** Also Sometimes users don’t know what exactly they are looking for in just exploring the web-page and its data. So We can increase the positive approach of user by adding drop-down menu, for the ease instead of guessing the options.
+- **Adding drop down-menu from the filter.** Also Sometimes users don’t know what exactly they are looking for in just exploring the web-page and its data. So We can increase the positive approach of user by adding drop-down menu, for the ease instead of guessing the options.
 
 
