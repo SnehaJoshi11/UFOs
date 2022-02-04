@@ -37,7 +37,7 @@ For this project we are using **JavaScript** as the primary coding language. Jav
 
 ## Results
 
-The Raw data from JavaScript array is going displayed in a dynamic table where end-users can filter the data on multiple criteria such as **date**, **city**, **state**, **country** and **shape** of UFOs sightings. 
+The raw data from JavaScript array is going displayed in a dynamic table where end-users can filter the data on multiple criteria such as **date**, **city**, **state**, **country** and **shape** of UFOs sightings. 
 Here filter input box is suggesting end-user that, how search criteria should be entered with using text value in it. For example, date should be entered in format as in 1/10/2010 – with forward slashes and without extra 0 before day and month. City, state, and country should be entered in lower case.
 
 <p align="center">
@@ -53,7 +53,8 @@ When user types of criteria in multi-filter and then press enter then table disp
 
 <p align="center">
 <img src="PNGs/FilterSearch_Criteria.png" width="20%" height="40%">
-<img src="PNGs/FilteredTable.png" width="40%" height="100%">
+ 
+<img src="PNGs/FilteredTable.png" width="60%" height="40%">
 </p>
 <p align="center">
 <i > New table, displays only the results that matches the user’s input. </i>
@@ -62,30 +63,31 @@ When user types of criteria in multi-filter and then press enter then table disp
 
   
 # 
-To resetting the filter, there are two options. User can either clear input manually by deleting input cell by cell or click the refresh button *UFO Sightings* that can be found at the top left corner of the page. After the filter is cleared, the user can use filter again.
+To resetting the filter, there are two options. User can either clear input manually by deleting input cell by cell or click the refresh link *UFO Sightings* that can be found at the top left corner of the page. After the filter is cleared, the user can use filter again.
 <p align="center">
 <img src="PNGs/UFO_sightings_link.png" width="30%" height="30%">
 </p>
 <p align="center">
-<i>Reset filter and refresh page link at the top left corner of the webpage. </i>
+<i>Reset filters and refresh page with UFO_sightings at the top left corner of the webpage. </i>
 </p>
 
 ## Summary
 
 This webpage does give a great overview of UFO sightings in the US, but it does have a few shortcomings. 
 
-### Drawbacks
+- Instead of "UFO Sightings" reset link, we can add some functions which will reset page automatically. Also provide some "TOP" and "BOTTOM" functions to scroll page up and down to make it user friendly.
 
 - It does not have the functionality to add live data. 
 
 - The data that is a part of the "data file" will stay the same unless and until someone change it.
 
-- Instead of "UFO Sightings" reset link, we can add some functions which will reset page automatically. Also provide some "TOP" and "BOTTOM" functions to scroll page up and down to make it user friendly.
 
 ### Recommendations for further analysis
 
-- **Converting all input to lower case.** Adding line of code that would convert all letters to lower case from user input. For example, no matter which format user used to type “CA” or “Ca” instead of “ca”, the code will still be able to process and find the results.
+- **Input data.** 
+  - By Adding a code that will convert all letters to lower case from user input. For example, no matter which format user used to type “CA” or “Ca” instead of “ca”, the code will still be able to process and find the results.
+  -  Also we can add some functinality that will change the user input to exact keys which will match the data. For example, if user type "st.louis" then it will automatically changed it to St.Louis or "mo" to "MO".
 
-- **Adding drop down-menu from the filter.** Also Sometimes users don’t know what exactly they are looking for in just exploring the web-page and its data. So We can increase the positive approach of user by adding drop-down menu, for the ease instead of guessing the options.
-
+- **Adding drop down-menu from the filter.**
+  -  Also we can add drop-down menu to the filters for the ease instead of guessing and exploring the options.
 
