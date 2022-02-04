@@ -17,7 +17,7 @@ The webpage contains the following:
 <img src="PNGs/Page_Header.png" width="80%" height="80%">
 </p>
 <p align ="center">
-<i>Image from the header of the webpage.<i>
+<i>Image from the header of the webpage.</i>
 </p>
 
 ### Background 
@@ -32,7 +32,7 @@ For this project we are using **JavaScript** as the primary coding language. Jav
   - **HTML** to build the webpage [index.html](index.html).
   - **CSS** and **Bootstrap** to build and style the page [style.css](static/css/style.css)
   - **Chrome Developer Tools** to test the code.
-- **Dependencies: ** D3(Data Driven Document)- We can Build a real-world, custom, interactive and beautiful data visualization from scratch using D3.
+- **Dependencies:** D3(Data Driven Document)- We can Build a real-world, custom, interactive and beautiful data visualization from scratch using D3.
 
 ## Results
 
@@ -40,29 +40,32 @@ The Raw data from JavaScript array is going displayed in a dynamic table where e
 Here filter input box is suggesting end-user that, how search criteria should be entered with using text value in it. For example, date should be entered in format as in 1/10/2010 – with forward slashes and without extra 0 before day and month. City, state, and country should be entered in lower case.
 
 <p align="center">
-<img src="PNGs/FilterSearch_Deafault.png" width="20%" height="20%">
+<img src="PNGs/FilterSearch_Default.png" width="20%" height="20%">
 </p>
 
 <p align="center">
-Dynamic multi-filter.
+  <i>Dynamic multi-filter.</i>
 </p>
 
 When user types of criteria in multi-filter and then press enter then table displays only rows that matches the user input. From the picture below we can see only data that has been filtered based on the user input – that is -- *State: ca, Shape: triangle and Date: 1/1/2010*.
 
 <p align="center">
-<img src="PNGs/FilterSearch_Crireria.png" width="20%" height="20%">
-<img src="PNGs/FilteredTable.png" width="40%" height="40%">
+<img src="PNGs/FilterSearch_Criteria.png" width="20%" height="40%">
+<img src="PNGs/FilteredTable.png" width="40%" height="100%">
 </p>
 <p align="center">
-<i>New table, displays only the results that matches the user’s input. </i>
+<i > New table, displays only the results that matches the user’s input. </i>
+  
 </p>
 
+  
+  
 To resetting the filter, there are two options. User can either clear input manually by deleting input cell by cell or click the refresh button *UFO Sightings* that can be found at the top left corner of the page. After the filter is cleared, the user can use filter again.
 <p align="center">
-<img src="PNGs/UFO_sightings_link.PNG" width="30%" height="30%">
+<img src="PNGs/UFO_sightings_link.png" width="30%" height="30%">
 </p>
 <p align="center">
-<i>Reset filter and refresh page button at the top left corner of the webpage. </i>
+<i>Reset filter and refresh page link at the top left corner of the webpage. </i>
 </p>
 
 ## Summary
